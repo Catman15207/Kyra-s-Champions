@@ -1,0 +1,28 @@
+{
+  "name": "cis-1120-9-7-22-day1-resume-example",
+  "version": "1.0.0",
+  "description": "from https://alvaromontoro.com/files/resume-classic.html - formerly priceless-dawn-nloyb7",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "3.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
