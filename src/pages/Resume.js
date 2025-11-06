@@ -3,48 +3,28 @@ import ResumeItem from "../components/ResumeItem";
 export default function Resume() {
   return (
     <>
-      <h1>Alvaro Montoro</h1> 
-      
-       <p>
-       Senior Software Engineer with strong experience creating
-       high-quality, scalable, and high-performance web applications seeking
-       front-end and full stack opportunities.
-       </p> 
+     <h2>Kyra’s Champions focuses on legislative initiatives on the federal and state levels to ensure children and their safety are top priorities in our family court systems.</h2>
 
-      <h2>EXPERIENCE FILTERS</h2>
+<p><a href="#">CLICK HERE TO SUPPORT KYRA'S LAW TODAY</a></p>
 
-      <h3>athenahealth Healthcare IT</h3>
+<p>Our mission is to stop child abuse and child murders. We advocate for policy changes that promote and protect children and families at risk of family violence. We need your help and support to ensure our voices are heard and that laws are passed to protect at-risk children.</p>
 
-      <h4> Member of Technical Staff  <time> 2017 - 2019 </time> </h4> 
-      <li>
-      Developed widgetsusing React and Less to display patient information.
-      </li>
+<p>As a 501(c)4 charity, we seek to change the way issues of violence and abuse are addressed in family courts so that child safety is put above all else.</p>
 
-      <li>
-      Created design specifications, participated in design and code reviews.
-      </li> Worked on the
-      design and initial development of a new platform to import medical
-      documents. Developed a Kotlin micro-service to generate XML documents
-      based on a government-compliant architecture (CCDA). General Motors
-      Cadillac.Com Team Web Developer 2015 - 2017 Developed new components for
-      the award-winning website Cadillac.com and its mobile version. Worked with
-      stakeholders to refine and negotiate product requirement specifications,
-      functional specifications, and product vision and direction. Designed a
-      web component that reduced page load speed by over 15%, improving SEO and
-      accessibility, and saving authoring expenses. Organized and participated
-      in events representing GM at volunteering opportunities and competitions.
-      MicroAssist Information Technology and Services PHP Developer 2014 - 2015
-      Designed and developed different web projects with a focus on
-      accessibility, including new features and website enhancements. Created
-      and integrated an automated mail system with 3rd party APIs. Developed and
-      collaborated in the translation project of the ITTD website for the Texas
-      Department of Public Safety. Hewlett-Packard Content & Digital Asset
-      Management IT Engineer 2011 - 2014 Developed two internal content
-      management systems (related to HP’s products documentation) with over
-      three million monthly visitors. Coordinated efforts with an overseas team,
-      applying Agile methodologies to ensure on-time, on-spec project delivery.
-      Improved different batch jobs performance, reducing execution time by over
-      50%, and eliminating downtime.
+<p>Kyra’s Champions was founded by Jacqueline Franchetti in memory of her sweet, vibrant, loving 2-year-old daughter, Kyra, who was shot to death while sleeping by her father, who then set his house on fire and killed himself during an unsupervised, court-ordered visit.</p>
+
+<h3>Kyra’s story is not unique.</h3>
+<ul>
+  <li>70% FAILURE RATE in which family court are convinced by an abuser that the victimized parent should be denied sole custody</li>
+  <li>58,000 AT-RISK CHILDREN are ordered into unsupervised visitation with an abusive parent by state family courts each year</li>
+  <li>75% OF CHILD DEATHS in the United States are at the hands of a parent</li>
+  <li>Over 1/2 million children today are court-ordered into a home where they are being sexually, physically, or emotionally abused</li>
+</ul>
+
+<p><strong>We honor Kyra’s memory by working to ensure no other child should have the same fate as Kyra and no other family should be impacted by a similar tragedy.</strong></p>
+
+<p><a href="#">CLICK HERE TO SUPPORT KYRA'S LAW TODAY</a></p>
+
     </>
   );
 }
