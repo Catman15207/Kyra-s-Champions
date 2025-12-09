@@ -2,13 +2,17 @@ export default function About() {
   return (
     <div className="about-wrapper">
 
+      {/* HERO IMAGE */}
+      <div className="about-hero">
+        <img src="/images/Art_home1.png" alt="Hero" />
+      </div>
+
       <h1 className="mission-title">
         Our mission is to protect children in custody cases<br />
         from being court-ordered into the home of an abusive parent.
       </h1>
 
       <div className="about-main">
-
         <div className="about-text">
           <p>
             Kyra’s Champions is a 501(c)4 charity advocating for policy and legislative
@@ -45,6 +49,7 @@ export default function About() {
         />
       </div>
 
+      {/* FOOTER */}
       <footer className="about-footer">
         <div className="footer-left">
           <img src="/images/Kyra's_logo.png" alt="Logo" className="footer-logo" />
@@ -82,7 +87,10 @@ export default function About() {
             Please Note: we do not provide legal guidance on divorce or custody cases.
           </p>
 
-          <p>Kyra’s Champions is a 501(c)4 charity.<br />©2024 Kyra’s Champions</p>
+          <p>
+            Kyra’s Champions is a 501(c)4 charity.
+            <br />©2024 Kyra’s Champions
+          </p>
 
           <div className="footer-links">
             <a href="#">Terms of Use</a>
