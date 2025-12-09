@@ -204,3 +204,13 @@ html {
   color: #2d54ad;
   text-decoration: none;
 }
+
+/* Full-width Hero Image for About Page */
+.about-hero img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
