@@ -48,6 +48,7 @@ export default function About() {
         />
       </div>
 
+      {/* FOOTER */}
       <footer className="about-footer">
         <div className="footer-left">
           <img
