@@ -86,6 +86,24 @@ html {
   font-weight: bold; /* makes it stand out */
 }
 
+.cta {
+  display: block; /* ensures margin auto works */
+  width: fit-content; /* shrink to text width */
+  margin: 1rem auto; /* centers horizontally */
+  text-align: center; /* centers text inside */
+  color: #fff;
+  background-color: #1a4d8f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #163d6f;
+}
+
 /* ------- ABOUT PAGE ------- */
 
 .about-wrapper {
