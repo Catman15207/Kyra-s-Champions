@@ -1,105 +1,99 @@
-/* Basic App styles */
-.App {
-  font-family: sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+/* ------- ABOUT PAGE ------- */
+
+.about-wrapper {
+  width: 100%;
+  padding: 20px 0;
 }
 
-/* Header with logo and menu */
-.header {
+/* Blue mission title */
+.mission-title {
+  color: #2d54ad;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+/* Main two-column layout */
+.about-main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Left text area */
+.about-text {
+  width: 55%;
+  text-align: left;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+/* Right image */
+.about-image {
+  width: 330px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Footer */
+.about-footer {
+  background: #e9f6f6;
   display: flex;
   justify-content: space-between;
+  padding: 40px 60px;
+  margin-top: 3rem;
+}
+
+.footer-left, .footer-center, .footer-right {
+  width: 33%;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.social-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.social {
+  width: 35px;
+  height: 35px;
+  background: black;
+  color: white;
+  font-size: 14px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 10px 20px;
 }
 
-/* Logo sizes */
-.logo {
-  height: auto;
-  max-height: 114px; /* desktop default */
-  width: auto;
-}
-
-/* Menu button sizes */
-.menu-btn {
-  font-size: 32px; /* desktop */
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-/* Mobile adjustments */
-@media screen and (max-width: 767px) {
-  .logo {
-    max-height: 60px; /* mobile */
-  }
-  .menu-btn {
-    font-size: 24px; /* mobile */
-  }
-}
-
-/* Remove horizontal gaps */
-body,
-html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-/* Slideshow container spans full viewport width */
-.slideshow-container {
-  position: relative;
-  width: 100vw; /* full viewport width */
-  height: 500px; /* adjust as needed */
-  margin: 0; /* remove auto centering */
-  overflow: hidden;
-  background-color: white;
-}
-
-/* Slideshow images */
-.slideshow-container img.slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 70% 70%;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.slideshow-container img.slide.active {
-  visibility: visible;
-  opacity: 1;
-}
-
-.mission-statement {
-  color: #2d54ad; /* blue similar to the site */
-  text-align: center; /* centers the text */
-  font-size: 1.8rem; /* adjust size if needed */
-  margin: 2rem auto; /* spacing top and bottom */
-  max-width: 900px; /* keeps it from stretching too wide */
-  line-height: 1; /* improves readability */
-  font-weight: bold; /* makes it stand out */
-}
-
-.cta {
-  display: block; /* ensures margin auto works */
-  width: fit-content; /* shrink to text width */
-  margin: 1rem auto; /* centers horizontally */
-  text-align: center; /* centers text inside */
-  color: #fff;
-  background-color: #1a4d8f;
-  padding: 10px 20px;
-  border-radius: 5px;
+.footer-title {
+  color: #2d54ad;
+  font-size: 22px;
   font-weight: bold;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
 }
 
-.cta:hover {
-  background-color: #163d6f;
+.footer-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
 }
+
+.footer-links a {
+  color: #2d54ad;
+  text-decoration: none;
+}
+
