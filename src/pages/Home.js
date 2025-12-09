@@ -50,32 +50,36 @@ export default function Home() {
         our family court systems.
       </h2>
 
-      {/* CTA link/button - clickable support button */}
-      <p>
-        <a href="#" className="cta">
-          CLICK HERE TO SUPPORT KYRA'S LAW TODAY
-        </a>
-      </p>
+      <div className="split-section">
+        <div className="left-text">
+          <p>
+            Our mission is to stop child abuse and child murders. We advocate
+            for policy changes that promote and protect children and families at
+            risk of family violence. We need your help and support to ensure our
+            voices are heard and that laws are passed to protect at-risk
+            children.
+          </p>
 
-      <p>
-        Our mission is to stop child abuse and child murders. We advocate for
-        policy changes that promote and protect children and families at risk of
-        family violence. We need your help and support to ensure our voices are
-        heard and that laws are passed to protect at-risk children.
-      </p>
+          <p>
+            As a 501(c)4 charity, we seek to change the way issues of violence
+            and abuse are addressed in family courts so that child safety is put
+            above all else.
+          </p>
 
-      <p>
-        As a 501(c)4 charity, we seek to change the way issues of violence and
-        abuse are addressed in family courts so that child safety is put above
-        all else.
-      </p>
+          <p>
+            Kyra’s Champions was founded by Jacqueline Franchetti in memory of
+            her sweet, vibrant, loving 2-year-old daughter, Kyra, who was shot
+            to death while sleeping by her father, who then set his house on
+            fire and killed himself during an unsupervised, court-ordered visit.
+          </p>
+        </div>
 
-      <p>
-        Kyra’s Champions was founded by Jacqueline Franchetti in memory of her
-        sweet, vibrant, loving 2-year-old daughter, Kyra, who was shot to death
-        while sleeping by her father, who then set his house on fire and killed
-        himself during an unsupervised, court-ordered visit.
-      </p>
+        <img
+          src="/images/Motherholdingchild.png"
+          alt="Kyra Family"
+          className="side-image"
+        />
+      </div>
 
       <h3>Kyra’s story is not unique.</h3>
 

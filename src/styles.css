@@ -204,3 +204,20 @@ html {
   color: #2d54ad;
   text-decoration: none;
 }
+
+.split-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.left-text {
+  flex: 1; /* Takes up the left side */
+}
+
+.side-image {
+  width: 40%; /* You can adjust this */
+  max-width: 350px;
+  border-radius: 10px;
+}
