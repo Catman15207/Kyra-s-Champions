@@ -2,16 +2,13 @@ export default function About() {
   return (
     <div className="about-wrapper">
 
-      {/* Mission Section Title */}
       <h1 className="mission-title">
         Our mission is to protect children in custody cases<br />
         from being court-ordered into the home of an abusive parent.
       </h1>
 
-      {/* Main Flex Section */}
       <div className="about-main">
 
-        {/* LEFT TEXT SIDE */}
         <div className="about-text">
           <p>
             Kyra’s Champions is a 501(c)4 charity advocating for policy and legislative
@@ -27,8 +24,8 @@ export default function About() {
           <p>
             Kyra’s Champions was founded by Jacqueline Franchetti in memory of her sweet,
             vibrant, loving 28-month-old daughter Kyra, who, in July 2016 during a
-            court-sanctioned unsupervised visit, was shot twice in the back while she
-            slept by her father, who then set his house on fire and killed himself.
+            court-sanctioned unsupervised visit, was shot twice in the back while she slept
+            by her father, who then set his house on fire and killed himself.
           </p>
 
           <p className="text-bold">
@@ -42,27 +39,20 @@ export default function About() {
 
         {/* RIGHT IMAGE */}
         <img
-          src="/your-image-here.jpg"
-          alt="Kyra and mother"
+          src="/images/B76A0334.webp"
+          alt="Kyra Family"
           className="about-image"
         />
       </div>
 
-      {/* FOOTER SECTION */}
       <footer className="about-footer">
-
         <div className="footer-left">
-          <img src="/your-logo.png" className="footer-logo" alt="Logo" />
+          <img src="/images/Kyra's_logo.png" alt="Logo" className="footer-logo" />
+
+          <p>565 Plandome Rd, Suite 156<br />Manhasset, NY 11030</p>
 
           <p>
-            565 Plandome Rd, Suite 156<br />
-            Manhasset, NY 11030
-          </p>
-
-          <p>
-            <a href="mailto:kyraschampions@gmail.com">
-              kyraschampions@gmail.com
-            </a>
+            <a href="mailto:kyraschampions@gmail.com">kyraschampions@gmail.com</a>
           </p>
 
           <p className="text-bold">
@@ -100,7 +90,6 @@ export default function About() {
             <a href="#">Privacy Policy</a>
           </div>
         </div>
-
       </footer>
     </div>
   );
