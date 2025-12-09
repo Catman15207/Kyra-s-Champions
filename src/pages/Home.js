@@ -16,6 +16,7 @@ export default function Home() {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length);
     }, 5000); // 5 seconds per slide
+
     return () => clearInterval(interval);
   }, []);
 
@@ -77,6 +78,7 @@ export default function Home() {
       </p>
 
       <h3>Kyra’s story is not unique.</h3>
+
       <ul>
         <li>
           70% FAILURE RATE in which family court are convinced by an abuser that
@@ -108,6 +110,69 @@ export default function Home() {
           CLICK HERE TO SUPPORT KYRA'S LAW TODAY
         </a>
       </p>
+
+      {/* Footer (same as About page) */}
+      <footer className="about-footer">
+        <div className="footer-left">
+          <img
+            src="/images/Kyra's_logo.png"
+            alt="Logo"
+            className="footer-logo"
+          />
+
+          <p>
+            565 Plandome Rd, Suite 156
+            <br />
+            Manhasset, NY 11030
+          </p>
+
+          <p>
+            <a href="mailto:kyraschampions@gmail.com">
+              kyraschampions@gmail.com
+            </a>
+          </p>
+
+          <p className="text-bold">
+            Please note, we cannot give legal advice on child custody cases.
+          </p>
+        </div>
+
+        <div className="footer-center">
+          <div className="social-row">
+            <span className="social">f</span>
+            <span className="social">in</span>
+            <span className="social">t</span>
+            <span className="social">ig</span>
+          </div>
+        </div>
+
+        <div className="footer-right">
+          <h2 className="footer-title">Kyra Franchetti Foundation</h2>
+
+          <p>
+            Our sister organization, the Kyra Franchetti Foundation, a 501(c)3
+            non-profit charity, seeks to create change in the conversation,
+            change in the way issues are addressed in family court.
+          </p>
+
+          <p className="text-bold">
+            Please Note: we do not provide legal guidance on divorce or custody
+            cases.
+          </p>
+
+          <p>
+            Kyra’s Champions is a 501(c)4 charity.
+            <br />
+            ©2024 Kyra’s Champions
+          </p>
+
+          <div className="footer-links">
+            <a href="#">Terms of Use</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
