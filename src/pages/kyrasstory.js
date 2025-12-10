@@ -5,7 +5,7 @@ export default function KyrasStory() {
       {/* HERO IMAGE — replace placeholder.png with your real image */}
       <div className="story-hero">
         <img
-          src="/images/placeholder_hero.png"
+          src="/image.png"
           alt="Kyra Hero"
           className="story-hero-img"
         />
