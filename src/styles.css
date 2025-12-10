@@ -226,22 +226,22 @@ html {
 }
 
 .side-image {
-  width: 40%; /* You can adjust this */
+  width: 40%; /
   max-width: 350px;
   border-radius: 10px;
 }
 
-/* KYRA'S STORY — HERO IMAGE */
+
 .story-hero {
   width: 100%;
-  height: 300px; /* Adjust as needed (try 250–350px) */
+  height: 300px; 
   overflow: hidden;
 }
 
 .story-hero-img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* This keeps the image cropped nicely */
+  object-fit: cover; /
   display: block;
 }
 
