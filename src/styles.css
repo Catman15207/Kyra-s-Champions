@@ -230,3 +230,10 @@ html {
   max-width: 350px;
   border-radius: 10px;
 }
+
+.about-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
