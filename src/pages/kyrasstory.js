@@ -69,7 +69,7 @@ export default function KyrasStory() {
 
         {/* RIGHT IMAGE — replace placeholder_storyimage.png */}
         <img
-          src="/images/placeholder_storyimage.png"
+          src="/images/18181620151120_0005_1.webp"
           alt="Kyra Story Image"
           className="story-side-image"
         />
