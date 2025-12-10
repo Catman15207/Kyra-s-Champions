@@ -1,4 +1,3 @@
-/* Basic App styles */
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -6,7 +5,6 @@
   padding: 0;
 }
 
-/* Header with logo and menu */
 .header {
   display: flex;
   justify-content: space-between;
@@ -14,32 +12,28 @@
   padding: 10px 20px;
 }
 
-/* Logo sizes */
 .logo {
   height: auto;
-  max-height: 114px; /* desktop default */
+  max-height: 114px;
   width: auto;
 }
 
-/* Menu button sizes */
 .menu-btn {
-  font-size: 32px; /* desktop */
+  font-size: 32px;
   background: none;
   border: none;
   cursor: pointer;
 }
 
-/* Mobile adjustments */
 @media screen and (max-width: 767px) {
   .logo {
-    max-height: 60px; /* mobile */
+    max-height: 60px;
   }
   .menu-btn {
-    font-size: 24px; /* mobile */
+    font-size: 24px;
   }
 }
 
-/* Remove horizontal gaps */
 body,
 html {
   margin: 0;
@@ -47,17 +41,15 @@ html {
   width: 100%;
 }
 
-/* Slideshow container spans full viewport width */
 .slideshow-container {
   position: relative;
-  width: 100vw; /* full viewport width */
-  height: 500px; /* adjust as needed */
-  margin: 0; /* remove auto centering */
+  width: 100vw;
+  height: 500px;
+  margin: 0;
   overflow: hidden;
   background-color: white;
 }
 
-/* Slideshow images */
 .slideshow-container img.slide {
   position: absolute;
   top: 0;
@@ -77,20 +69,20 @@ html {
 }
 
 .mission-statement {
-  color: #2d54ad; /* blue similar to the site */
-  text-align: center; /* centers the text */
-  font-size: 1.8rem; /* adjust size if needed */
-  margin: 2rem auto; /* spacing top and bottom */
-  max-width: 900px; /* keeps it from stretching too wide */
-  line-height: 1; /* improves readability */
-  font-weight: bold; /* makes it stand out */
+  color: #2d54ad;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  line-height: 1;
+  font-weight: bold;
 }
 
 .cta {
-  display: block; /* ensures margin auto works */
-  width: fit-content; /* shrink to text width */
-  margin: 1rem auto; /* centers horizontally */
-  text-align: center; /* centers text inside */
+  display: block;
+  width: fit-content;
+  margin: 1rem auto;
+  text-align: center;
   color: #fff;
   background-color: #1a4d8f;
   padding: 10px 20px;
@@ -104,14 +96,11 @@ html {
   background-color: #163d6f;
 }
 
-/* ------- ABOUT PAGE ------- */
-
 .about-wrapper {
   width: 100%;
   padding: 20px 0;
 }
 
-/* Blue mission title */
 .mission-title {
   color: #2d54ad;
   text-align: center;
@@ -122,7 +111,6 @@ html {
   margin: 2rem auto;
 }
 
-/* Main two-column layout */
 .about-main {
   display: flex;
   justify-content: center;
@@ -133,7 +121,6 @@ html {
   padding: 20px;
 }
 
-/* Left text area */
 .about-text {
   width: 55%;
   text-align: left;
@@ -143,14 +130,12 @@ html {
   font-weight: bold;
 }
 
-/* Right image */
 .about-image {
   width: 330px;
   height: auto;
   border-radius: 10px;
 }
 
-/* Footer */
 .about-footer {
   background: #e9f6f6;
   display: flex;
@@ -205,7 +190,6 @@ html {
   text-decoration: none;
 }
 
-/* Full-width Hero Image for About Page */
 .about-hero img {
   width: 100%;
   height: 400px;
@@ -222,26 +206,24 @@ html {
 }
 
 .left-text {
-  flex: 1; /* Takes up the left side */
+  flex: 1;
 }
 
 .side-image {
-  width: 40%; /
+  width: 40%;
   max-width: 350px;
   border-radius: 10px;
 }
 
-
 .story-hero {
   width: 100%;
-  height: 300px; 
+  height: 300px;
   overflow: hidden;
 }
 
 .story-hero-img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /
+  object-fit: cover;
   display: block;
 }
-
