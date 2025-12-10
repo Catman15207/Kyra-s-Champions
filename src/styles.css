@@ -231,9 +231,17 @@ html {
   border-radius: 10px;
 }
 
-.about-hero img {
+/* KYRA'S STORY — HERO IMAGE */
+.story-hero {
   width: 100%;
-  height: auto;
+  height: 300px; /* Adjust as needed (try 250–350px) */
+  overflow: hidden;
+}
+
+.story-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This keeps the image cropped nicely */
   display: block;
 }
 
