@@ -1,6 +1,6 @@
 import { HashLink } from "react-router-hash-link";
 
-export default function Navigation() {
+export default function Navigation(){
   return (
     <nav>
       <ul>
@@ -9,11 +9,19 @@ export default function Navigation() {
             Home
           </HashLink>
         </li>
+
         <li>
           <HashLink smooth to="/about">
             About Organization
           </HashLink>
         </li>
+
+        <li>
+          <HashLink smooth to="/kyrasstory">
+            Kyra's Story
+          </HashLink>
+        </li>
+
         <li>
           <HashLink smooth to="/contact">
             Contact Us
