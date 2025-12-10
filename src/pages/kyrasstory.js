@@ -1,11 +1,10 @@
 export default function KyrasStory() {
   return (
     <div className="kyrasstory-wrapper">
-
-      {/* HERO IMAGE — replace placeholder.png with your real image */}
+      {/* HERO IMAGE */}
       <div className="story-hero">
         <img
-          src="/image.png"
+          src="/images/image.png"
           alt="Kyra Hero"
           className="story-hero-img"
         />
@@ -16,16 +15,15 @@ export default function KyrasStory() {
 
       {/* MAIN CONTENT */}
       <div className="story-main">
-        {/* LEFT TEXT */}
         <div className="story-text">
           <p>
             To meet Kyra was to love Kyra. She easily made friends wherever she went,
             and loved watching Elmo, Mickey Mouse, and “Kyra TV,” (videos of herself,
             her mom, and her friends). Kyra loved sprinklers at the park and bubbles —
             blowing them, catching them, and taking bubble baths. She often requested
-            “moo-sic” so she could dance. She loved to draw and play with play-doh 
-            and puppies. Her smile lit up a room and her giggle was infectious. Kyra 
-            touched everyone she met.
+            “moo-sic” so she could dance. She loved to draw and play with play-doh and
+            puppies. Her smile lit up a room and her giggle was infectious. Kyra touched
+            everyone she met.
           </p>
 
           <h3 className="story-highlight">
@@ -60,14 +58,14 @@ export default function KyrasStory() {
           </p>
 
           <p className="text-bold">
-            We honor Kyra’s memory by focusing on legislative initiatives on the
-            federal and state levels to ensure children and their safety are top
-            priorities in our family court systems. No other family should have to 
-            deal with the horrors that Kyra and Jacqueline did.
+            We honor Kyra’s memory by focusing on legislative initiatives on the federal
+            and state levels to ensure children and their safety are top priorities in
+            our family court systems. No other family should have to deal with the horrors
+            that Kyra and Jacqueline did.
           </p>
         </div>
 
-        {/* RIGHT IMAGE — replace placeholder_storyimage.png */}
+        {/* RIGHT SIDE IMAGE */}
         <img
           src="/images/18181620151120_0005_1.webp"
           alt="Kyra Story Image"
@@ -75,7 +73,7 @@ export default function KyrasStory() {
         />
       </div>
 
-      {/* FOOTER — same structure as About page */}
+      {/* FOOTER */}
       <footer className="about-footer">
         <div className="footer-left">
           <img
@@ -88,9 +86,7 @@ export default function KyrasStory() {
             Manhasset, NY 11030
           </p>
           <p>
-            <a href="mailto:kyraschampions@gmail.com">
-              kyraschampions@gmail.com
-            </a>
+            <a href="mailto:kyraschampions@gmail.com">kyraschampions@gmail.com</a>
           </p>
           <p className="text-bold">
             Please note, we cannot give legal advice on child custody cases.
@@ -109,18 +105,16 @@ export default function KyrasStory() {
         <div className="footer-right">
           <h2 className="footer-title">Kyra Franchetti Foundation</h2>
           <p>
-            Our sister organization, the Kyra Franchetti Foundation, a 501(c)3 
-            non‑profit charity, seeks to create change in the conversation, 
-            change in the way issues are addressed in family court.
+            Our sister organization, the Kyra Franchetti Foundation, a 501(c)3 non‑profit
+            charity, seeks to create change in the conversation, change in the way issues
+            are addressed in family court.
           </p>
           <p className="text-bold">
             Please Note: we do not provide legal guidance on divorce or custody cases.
           </p>
           <p>
-            Kyra’s Champions is a 501(c)4 charity.<br />
-            ©2024 Kyra’s Champions
+            Kyra’s Champions is a 501(c)4 charity.<br />©2024 Kyra’s Champions
           </p>
-
           <div className="footer-links">
             <a href="#">Terms of Use</a>
             <a href="#">Cookie Policy</a>
@@ -131,4 +125,5 @@ export default function KyrasStory() {
     </div>
   );
 }
+
 
