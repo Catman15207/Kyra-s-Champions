@@ -19,7 +19,7 @@ export default function KyrasStory() {
           </p>
 
           <h3 className="story-highlight">
-            Kyra’s murder was preventable. The court system failed Kyra.
+          c  Kyra’s murder was preventable. The court system failed Kyra.
           </h3>
 
           <a href="#" className="cta">

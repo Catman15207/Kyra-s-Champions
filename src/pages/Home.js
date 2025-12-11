@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import Navigation from "../components/Navigation";
+import { Link } from "react-router-dom";
+
 //import ResumeItem from "../components/ResumeItem";
 
 export default function Home() {
@@ -22,16 +25,6 @@ export default function Home() {
 
   return (
     <>
-      {/* Header with logo and menu button */}
-      <header className="header">
-        <img
-          className="logo"
-          src="/images/Kyra's_logo.png"
-          alt="Kyra's Champions Logo"
-        />
-        <button className="menu-btn">=</button>
-      </header>
-
       {/* Slideshow */}
       <div className="slideshow-container">
         {images.map((src, index) => (
@@ -109,11 +102,9 @@ export default function Home() {
         </strong>
       </p>
 
-      <p>
-        <a href="#" className="cta">
-          CLICK HERE TO SUPPORT KYRA'S LAW TODAY
-        </a>
-      </p>
+      <Link to="/kyrasstory" className="cta">
+        CLICK HERE TO SUPPORT KYRA'S LAW TODAY
+      </Link>
 
       {/* Footer (same as About page) */}
       <footer className="about-footer">

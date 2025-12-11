@@ -1,7 +1,6 @@
 export default function About() {
   return (
     <div className="about-wrapper">
-
       {/* HERO IMAGE */}
       <div className="about-hero">
         <img src="/images/Screenshot 2025-12-09 143807.png" alt="Hero" />
@@ -37,9 +36,9 @@ export default function About() {
             and state levels to ensure children and their safety are top
             priorities in our family court systems.
           </p>
-          <a href="#" className="cta">
+          <Link to="/kyrasstory" className="cta">
             CLICK HERE TO SUPPORT KYRA'S LAW TODAY
-          </a>
+          </Link>
         </div>
 
         {/* RIGHT IMAGE */}
@@ -108,4 +107,3 @@ export default function About() {
     </div>
   );
 }
-
